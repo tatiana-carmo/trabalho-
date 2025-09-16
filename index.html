@@ -1,53 +1,183 @@
-<title>Uniformes Escolares - Escolas Cívico-Militares do Paraná</title>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-<header class="hero-pattern text-white py-16">
-    <div class="container mx-auto px-6 text-center">
-        <h1 class="text-4xl md:text-6xl font-bold mb-4">Uniformes Escolares</h1>
-        <p class="text-lg opacity-90 max-w-2xl mx-auto">Informações completas sobre padronização...</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar.png" alt="avatar da Tatiana" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou a Tatiana_</p>
+        <h1>Faço aula de Programação</h1>
+        <p>Aprendo sobre programação, como estudante no Ensino Médio no Colǵio Civico Militar Helena Viana Sundin. 
+            Pretendo cursar a faculdade de Educaão Fisíca </p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Meu Site : Porque fazer esportes?</h5>
+                        <p class="card-text">Este projeto é um site que apresenta um questionamnto do Porque fazer Esportes,
+                         incluindo as perguntas mais frequentes , como "Porque devemos fazer esportes", "Benefícios do esporte", "Oque melhora na saúde", etc.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">BOX10 Capacites: Academia de Cross Fit</h5>
+                        <p class="card-text">Este projeto foi feito na plataforma do Figma baseado em navegador em um site sobre 
+                            que te dá informações dobre a BOX10 Capacites, dando também a oportunidade de mrcar uma aula experimental de
+                            cros fit e mostrando alhumas imagens de treinos, eventos e alunos da academia.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/3.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Layout
+                        </h5>
+                        <p class="card-text">Este projeto vai te levar a conhecer novos esportes e
+                            vai te levar a conhecer noticias para se a pro=fundar neles e conhecelos melhor
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto “Layout” é uma plataforma voltada para o aprendizado e a 
+                        divulgação esportiva, pensada para o público interessado em explorar novos esportes e se 
+                        aprofundar em suas características, regras e contextos através de notícias atualizadas e conteúdo interativo.</p>
+                    <p>O HTML estrutura o conteúdo da página, organizando-o em seções como a página inicial, galeria de esportes, 
+                        destaques de notícias e área de exploração. Cada esporte recebe uma apresentação individual com imagens ilustrativas,
+                        breve histórico, principais regras e curiosidades. O CSS é utilizado para estilizar a página com um visual dinâmico, moderno e atrativo, 
+                        garantindo que o conteúdo seja acessível em diferentes dispositivos com um layout responsivo.</p>
+                    <p>O JavaScript adiciona interatividade à navegação, permitindo filtros por categoria de esporte, visualização dinâmica das 
+                        últimas notícias e recomendações personalizadas baseadas nas preferências do usuário. Ele também gerencia a atualização do conteúdo conforme
+                         a navegação do visitante, proporcionando uma experiência fluida e envolvente.</p>
+                    <p>O HTML organiza a página com um cabeçalho que contém o título da plataforma, seguido por uma seção principal [.container] que apresenta os esportes 
+                        em destaque dentro de uma galeria flexível [.esportes]. Cada item [.esporte] mostra uma imagem representativa, breve descrição, link para aprofundamento 
+                        e matérias relacionadas. O design responsivo é assegurado pelo uso de media queries e estrutura flexível que se adapta a variados tamanhos de tela,
+                        desde dispositivos móveis até desktops.</p>
+                    <p>Os scripts JavaScript incluem funções para carregar automaticamente as últimas notícias, organizar conteúdos por temas e destacar novidades relevantes para 
+                            o usuário. Esse sistema modular permite fácil atualização e expansão do conteúdo, acompanhando os eventos esportivos em tempo real e facilitando a manutenção.</p>
+                    <p>A importância das ferramentas utilizadas (HTML, CSS e JavaScript) está na criação de uma plataforma que não apenas apresenta esportes de forma clara e didática, mas também estimula a 
+                        curiosidade, o conhecimento e a reflexão sobre o papel do esporte na formação cultural e social. O projeto convida o usuário a sair da zona comum, conhecendo modalidades pouco exploradas e compreendendo 
+                        como o esporte pode ser uma ferramenta de transformação pessoal e coletiva.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://meu-site-murex.vercel.app/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/tatiana-carmo/meu-site.git">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
     </div>
-</header>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Conhecendo a Beleza da Física</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Academia de CrossFit é um projeto desenvolvido na plataforma Figma, com foco em criar uma experiência de navegação informativa 
+                        e interativa para interessados em conhecer mais sobre a academia. O site foi planejado para apresentar as principais informações sobre a BOX10, 
+                        com um design moderno e funcional voltado à divulgação de seus serviços e facilitação do contato com novos alunos.</p>
+                     <p>A estrutura da página foi organizada em seções bem definidas, incluindo a apresentação da academia, galeria de imagens com treinos, eventos e alunos, 
+                        além de uma área dedicada para agendamento de uma aula experimental. Esse recurso permite ao visitante dar o primeiro passo no universo do CrossFit de 
+                        forma prática e acessível.</p>
+                    <p>O layout projetado no Figma utiliza cores fortes e elementos visuais que remetem à energia e intensidade do treinamento funcional. O design responsivo garante 
+                        uma boa navegação em dispositivos móveis e desktops, proporcionando uma experiência fluida e visualmente atrativa.
+                        A proposta do projeto não é apenas divulgar a BOX10, mas também criar uma conexão com o público ao mostrar a rotina da academia, seus alunos e eventos, incentivando 
+                        o visitante a se engajar com a prática esportiva e com a comunidade do CrossFit.</p>
+                    <p>Esse projeto demonstra como ferramentas como o Figma podem ser usadas para criar protótipos realistas e funcionais de páginas web, alinhando estética, usabilidade e propósito 
+                        informativo. Ele reforça o papel do design na promoção de experiências envolventes e eficazes para o usuário final.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.figma.com/proto/n6XJvJAfgWRuD2TXfGiv9t/ProjetoFinal--Community-?node-id=5-41&starting-point-node-id=5%3A42">Ver projeto ao
+                        vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<ul class="space-y-2 text-gray-600">
-    <li>• Camisa polo branca ou azul marinho</li>
-    <li>• Calça ou bermuda azul marinho</li>
-</ul>
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Aprendendo Sobre o Sistema Solar com os 6° anos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>É um projeto web voltado para a conscientização e incentivo à prática esportiva. Desenvolvido com foco em informação e 
+                        acessibilidade, o site apresenta uma abordagem educativa sobre os benefícios dos esportes para o corpo e a mente, promovendo a reflexão por meio 
+                        de perguntas frequentes que despertam o interesse do público.</p>
+                    <p>A página é estruturada de forma clara e objetiva, com seções dedicadas a questões como: “Por que devemos fazer esportes?”, “Quais são os benefícios do esporte?”,
+                        “O que o esporte melhora na saúde?”, entre outras. Essas perguntas funcionam como um guia para que o visitante entenda a importância da atividade física no cotidiano.</p>
+                    <p>Utilizando HTML e CSS, o site é organizado com um layout limpo e responsivo, adaptando-se a diferentes dispositivos. O design foi pensado para proporcionar uma leitura agradável e fluida, 
+                        com cores leves e tipografia acessível. JavaScript pode ser utilizado para tornar a navegação mais dinâmica, permitindo, por exemplo, expandir ou ocultar respostas às perguntas conforme a interação do usuário.
+                       O projeto vai além de uma simples apresentação de dados: ele propõe uma experiência educativa e motivadora, estimulando o visitante a refletir sobre sua saúde e bem-estar, além de encorajá-lo a adotar hábitos mais saudáveis 
+                       por meio da prática esportiva.</p>
+                    <p>Este projeto mostra como um site bem estruturado pode atuar como uma poderosa ferramenta de educação e incentivo à qualidade de vida, utilizando recursos simples de desenvolvimento web para impactar positivamente o usuário.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://layout-2c-woad.vercel.app/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/tatiana-carmo/layout-2c.git">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/tatiana-carmo">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Tatiana do Carmo</p>
+    </footer>
 
-<body class="bg-gray-50 font-sans"> 
-    <div class="card-hover bg-white rounded-lg shadow-lg p-6 text-center"> 
-    <h1 class="text-4xl md:text-6xl font-bold mb-4">Uniformes Escolares</h1>
-    ```
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
----
-
-### **Código JavaScript**
-
-Embora você tenha perguntado apenas sobre HTML e Style, o código também contém **JavaScript**.
-
-* **Identificação:** O código JavaScript é o que dá interatividade à página. Ele está dentro da tag `javascript
-    
-    <script>
-    function showSection(sectionId) {
-        // Hide all sections
-        const sections = document.querySelectorAll('.section-content');
-        sections.forEach(section => {
-            section.classList.add('hidden');
-        });
-        
-        // Show selected section
-        document.getElementById(sectionId).classList.remove('hidden');
-        
-        // Update navigation buttons
-        const navButtons = document.querySelectorAll('.nav-btn');
-        navButtons.forEach(btn => {
-            btn.classList.remove('text-blue-600', 'border-b-2', 'border-blue-600', 'font-semibold');
-            btn.classList.add('text-gray-600');
-        });
-        
-        // Highlight active button
-        event.target.classList.remove('text-gray-600');
-        event.target.classList.add('text-blue-600', 'border-b-2', 'border-blue-600', 'font-semibold');
-        
-        // Smooth scroll to top
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-</script>
+</html>
